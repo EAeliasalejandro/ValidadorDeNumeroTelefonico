@@ -1,0 +1,12 @@
+//Reset styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import '_fonts';
+@import '_variables';
+@import '_header';
+@import '_contenedor';
+@import '_footer'

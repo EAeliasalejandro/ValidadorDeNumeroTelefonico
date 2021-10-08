@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: $azul;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footerHijo {
+    color: $blanco;
+}
+.LogoGit {
+    fill: $blanco;
+}

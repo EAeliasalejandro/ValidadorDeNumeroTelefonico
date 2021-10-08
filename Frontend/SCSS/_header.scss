@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    background: $azul;
+    box-shadow: $sombras;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.cenidet {
+    color: $blanco;
+    font-family: $Tipografia;
+    font-style: italic;
+}
+.titulo {
+    color: $blanco;
+    font-family: $Tipografia;
+}

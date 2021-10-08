@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,400&display=swap);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Gradiante */
+/* Neumorfismo */
+/* Colores */
+.header {
+  display: flex;
+  background: #1B396A;
+  box-shadow: 28px 28px 56px #162f57, -28px -28px 56px #20437d;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.cenidet {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+}
+
+.titulo {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+.formulario {
+  align-self: center;
+  width: 40%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #1B396A;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.footerHijo {
+  color: #ffffff;
+}
+
+.LogoGit {
+  fill: #ffffff;
+}
+
+/*# sourceMappingURL=main.css.map */
