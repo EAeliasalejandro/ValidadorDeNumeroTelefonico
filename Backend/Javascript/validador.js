@@ -5,8 +5,8 @@ const resultado = document.getElementById("resultado");
 
 //Expresión Regular
 function validarNumero(numero) {
-    var re = /[0-9]/;
-    return re.test(numero); //se comprueba si cumple o no
+    var er = /\+\d\d*-\(\d\d*\)(\d\d\s)(\d\d\s)*(\d)*\s(M|F)/g;
+    return er.test(numero); //se comprueba si cumple o no
 }
 //Validar el Número escrito en el inpu
 function validar() {
@@ -20,7 +20,7 @@ function validar() {
             resultado.innerHTML = telefonoValor + " Este número es valido.";
             resultado.style.color = "green";
         } else {
-            resultado.innerHTML = telefonoValor + " Este número no es valido, prueba de nuevo.";
+            resultado.innerHTML = telefonoValor + " Este número es invalido, prueba de nuevo.";
             resultado.style.color = "red";
         }
     }
