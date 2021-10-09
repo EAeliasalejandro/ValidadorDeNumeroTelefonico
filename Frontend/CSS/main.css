@@ -42,10 +42,7 @@
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
   background: #1B396A;
-  align-items: center;
   width: 100%;
   padding: 25px;
   position: fixed;
@@ -53,12 +50,48 @@ footer {
   bottom: 0;
 }
 
+.piePagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repositorio {
+  flex: 1;
+  display: flex;
+}
+
+.equipo > p, span {
+  color: #ffffff;
+}
+
+.equipo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.materia > p {
+  flex: 1;
+  display: block;
+  color: #ffffff;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .footerHijo {
   color: #ffffff;
 }
 
 .LogoGit {
-  fill: #ffffff;
+  width: 20px;
+}
+
+.iconoLink {
+  width: 28px;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
